@@ -1,0 +1,5 @@
+torch
+transformers
+numpy
+psycopg[binary]
+mcp[cli]
