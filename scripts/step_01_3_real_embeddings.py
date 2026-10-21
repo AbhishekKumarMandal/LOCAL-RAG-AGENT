@@ -2,9 +2,9 @@ import torch
 
 from transformers import AutoTokenizer, AutoModel
 
-from step_2_1_cosine_similarity import cosine_similarity
+from step_02_1_cosine_similarity import cosine_similarity
 
-from step_1_2_embedding_utils import (
+from step_01_2_embedding_utils import (
     normalize_embedding,
     print_embedding_debug_info
 )

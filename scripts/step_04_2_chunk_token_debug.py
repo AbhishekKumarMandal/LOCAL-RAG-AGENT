@@ -1,5 +1,5 @@
 from transformers import AutoTokenizer
-from step_4_1_chunking_basics import chunk_text
+from step_04_1_chunking_basics import chunk_text
 
 # Use the same tokenizer as our embedding generator.
 MODEL_NAME = "BAAI/bge-small-en-v1.5"

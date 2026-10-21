@@ -1,6 +1,6 @@
-from step_6_1_semantic_search import semantic_search
-from step_7_1_build_rag_prompt import build_rag_prompt
-from step_8_1_ollama_basics import generate_text
+from step_06_1_semantic_search import semantic_search
+from step_07_1_build_rag_prompt import build_rag_prompt
+from step_08_1_ollama_basics import generate_text
 
 
 def answer_question(question):

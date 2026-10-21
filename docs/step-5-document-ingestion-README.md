@@ -29,16 +29,16 @@ We process and store documents in advance so that we do not need to read and emb
 | File | Responsibility |
 |---|---|
 | `data/documents/backend_notes.md` | Sample knowledge document |
-| `scripts/step_5_1_read_document.py` | Read the document |
-| `scripts/step_5_2_chunk_document.py` | Split the document and attach metadata |
-| `scripts/step_5_3_ingest_document.py` | Generate embeddings and insert chunks into PostgreSQL |
+| `scripts/step_05_1_read_document.py` | Read the document |
+| `scripts/step_05_2_chunk_document.py` | Split the document and attach metadata |
+| `scripts/step_05_3_ingest_document.py` | Generate embeddings and insert chunks into PostgreSQL |
 
 We also reused functionality from earlier steps:
 
-- `step_1_3_real_embeddings.py` — embedding generation.
-- `step_3_1_database_utils.py` — PostgreSQL connection.
-- `step_3_2_store_embedding.py` — conversion to pgvector format.
-- `step_4_4_smart_chunking.py` — token-aware chunking.
+- `step_01_3_real_embeddings.py` — embedding generation.
+- `step_03_1_database_utils.py` — PostgreSQL connection.
+- `step_03_2_store_embedding.py` — conversion to pgvector format.
+- `step_04_4_smart_chunking.py` — token-aware chunking.
 
 The complete implementations remain in these Python files.
 
@@ -102,7 +102,7 @@ For example:
 ```text
 local-rag-agent/
 └── scripts/
-    └── step_5_1_read_document.py
+    └── step_05_1_read_document.py
 ```
 
 The expression returns the path to:
@@ -492,7 +492,7 @@ This lets us handle the document's database inserts as a single transaction.
 We ran:
 
 ```bash
-python scripts/step_5_3_ingest_document.py
+python scripts/step_05_3_ingest_document.py
 ```
 
 The terminal displayed:

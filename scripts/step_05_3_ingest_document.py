@@ -1,9 +1,9 @@
 from pathlib import Path
 
-from step_5_2_chunk_document import prepare_document_chunks
-from step_1_3_real_embeddings import generate_embedding
-from step_3_1_database_utils import get_connection
-from step_3_2_store_embedding import embedding_to_pgvector
+from step_05_2_chunk_document import prepare_document_chunks
+from step_01_3_real_embeddings import generate_embedding
+from step_03_1_database_utils import get_connection
+from step_03_2_store_embedding import embedding_to_pgvector
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent

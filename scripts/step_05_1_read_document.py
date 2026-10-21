@@ -4,7 +4,7 @@ from pathlib import Path
 # __file__ is the location of this Python script.
 #
 # Example:
-# local-rag-agent/scripts/step_5_1_read_document.py
+# local-rag-agent/scripts/step_05_1_read_document.py
 #
 # .resolve() gets its absolute path.
 # .parent gives us the scripts/ directory.

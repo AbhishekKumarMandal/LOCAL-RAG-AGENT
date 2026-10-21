@@ -136,7 +136,7 @@ RAG
 We created:
 
 ```text
-scripts/step_7_1_build_rag_prompt.py
+scripts/step_07_1_build_rag_prompt.py
 ```
 
 The purpose of this step was to construct the exact text that would be sent to the LLM.

@@ -1,7 +1,7 @@
 import json
 
-from step_8_1_ollama_basics import generate_text
-from step_9_1_tools_basics import calculator
+from step_08_1_ollama_basics import generate_text
+from step_09_1_tools_basics import calculator
 
 
 TOOL_DESCRIPTION = """

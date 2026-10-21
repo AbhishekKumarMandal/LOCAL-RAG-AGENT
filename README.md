@@ -416,15 +416,15 @@ The main scripts follow a step-by-step learning sequence:
 
 ```text
 scripts/
-├── step_1_*   embeddings
-├── step_2_*   cosine similarity
-├── step_3_*   PostgreSQL + pgvector
-├── step_4_*   chunking
-├── step_5_*   document ingestion
-├── step_6_*   semantic search
-├── step_7_*   RAG
-├── step_8_*   Ollama
-├── step_9_*   tools
+├── step_01_*   embeddings
+├── step_02_*   cosine similarity
+├── step_03_*   PostgreSQL + pgvector
+├── step_04_*   chunking
+├── step_05_*   document ingestion
+├── step_06_*   semantic search
+├── step_07_*   RAG
+├── step_08_*   Ollama
+├── step_09_*   tools
 ├── step_10_*  agent loop
 ├── step_11_*  MCP server
 └── step_12_*  MCP client and MCP agent

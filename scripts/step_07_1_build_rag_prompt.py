@@ -1,4 +1,4 @@
-from step_6_1_semantic_search import semantic_search
+from step_06_1_semantic_search import semantic_search
 
 def build_rag_prompt(question, matches):
 

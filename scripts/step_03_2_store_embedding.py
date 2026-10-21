@@ -1,5 +1,5 @@
-from step_3_1_database_utils import get_connection
-from step_1_3_real_embeddings import generate_embedding
+from step_03_1_database_utils import get_connection
+from step_01_3_real_embeddings import generate_embedding
 
 def embedding_to_pgvector(embedding):
 

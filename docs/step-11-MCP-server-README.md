@@ -51,7 +51,7 @@ Before MCP, our agent directly imported Python functions.
 Example:
 
 ```python
-from step_9_1_tools_basics import calculator
+from step_09_1_tools_basics import calculator
 
 result = calculator(
     operation="multiply",

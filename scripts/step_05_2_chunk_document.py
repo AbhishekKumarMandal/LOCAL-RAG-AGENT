@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from step_5_1_read_document import read_document
-from step_4_4_smart_chunking import chunk_text, count_tokens
+from step_05_1_read_document import read_document
+from step_04_4_smart_chunking import chunk_text, count_tokens
 
 
 # Resolve the project root relative to this script.

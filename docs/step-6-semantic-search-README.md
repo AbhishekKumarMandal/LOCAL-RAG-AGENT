@@ -38,14 +38,14 @@ Answer generation will be added in Step 7 — RAG.
 
 | File | Responsibility |
 |---|---|
-| `scripts/step_6_1_semantic_search.py` | Generate question embeddings and retrieve matching document chunks |
-| `scripts/step_6_2_test_retrieval.py` | Test relevant and unrelated questions with a similarity threshold |
+| `scripts/step_06_1_semantic_search.py` | Generate question embeddings and retrieve matching document chunks |
+| `scripts/step_06_2_test_retrieval.py` | Test relevant and unrelated questions with a similarity threshold |
 
 We reused:
 
-- `step_1_3_real_embeddings.py` — Generate embeddings.
-- `step_3_1_database_utils.py` — Connect to PostgreSQL.
-- `step_3_2_store_embedding.py` — Convert embeddings into pgvector format.
+- `step_01_3_real_embeddings.py` — Generate embeddings.
+- `step_03_1_database_utils.py` — Connect to PostgreSQL.
+- `step_03_2_store_embedding.py` — Convert embeddings into pgvector format.
 
 The complete implementations remain in the numbered Python scripts.
 
@@ -548,7 +548,7 @@ Each parameter corresponds to one `%s`, in the order it appears in the SQL query
 We created:
 
 ```text
-scripts/step_6_2_test_retrieval.py
+scripts/step_06_2_test_retrieval.py
 ```
 
 We tested two questions with:

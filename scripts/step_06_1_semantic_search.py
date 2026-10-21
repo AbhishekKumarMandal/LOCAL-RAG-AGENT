@@ -1,6 +1,6 @@
-from step_1_3_real_embeddings import generate_embedding
-from step_3_1_database_utils import get_connection
-from step_3_2_store_embedding import embedding_to_pgvector
+from step_01_3_real_embeddings import generate_embedding
+from step_03_1_database_utils import get_connection
+from step_03_2_store_embedding import embedding_to_pgvector
 
 
 def semantic_search(question, top_k=3, min_similarity=None):

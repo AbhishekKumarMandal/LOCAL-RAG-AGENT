@@ -5,7 +5,7 @@ from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 import mcp.types as types
 
-from step_8_1_ollama_basics import generate_text
+from step_08_1_ollama_basics import generate_text
 
 
 PYTHON_PATH = (
